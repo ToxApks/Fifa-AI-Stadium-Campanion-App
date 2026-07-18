@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1081747504470",
+    "project_id": "fifa-app-7d1be",
+    "storage_bucket": "fifa-app-7d1be.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081747504470:android:efb14a7f22a0a9948d2af7",
+        "android_client_info": {
+          "package_name": "com.student.FifaCampanion"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZTCEzxnOGLl7LdBo-1nO3k3Urxlju-qs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

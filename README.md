@@ -1,12 +1,15 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🏟️ FIFA AI Stadium Companion
 
-# Run and deploy your AI Studio app
+FIFA AI Stadium Companion is an Android application designed to improve the football match-day experience using Artificial Intelligence. The app combines AI assistance with stadium-related services to help users access match information, navigate the stadium, explore services, and interact with event features through a modern mobile interface.
+
+---
+
+# Run and deploy this app
+
 
 This contains everything you need to run your app locally.
 
-View your app in AI Studio: https://ai.studio/apps/6fd8447f-9fd1-4de2-89b1-d3e726ed3613
+View this app with this link: https://ai.studio/apps/6fd8447f-9fd1-4de2-89b1-d3e726ed3613
 
 ## Run Locally
 
@@ -19,3 +22,91 @@ View your app in AI Studio: https://ai.studio/apps/6fd8447f-9fd1-4de2-89b1-d3e72
 4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
 5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
 6. Run the app on an emulator or physical device
+
+---
+
+## Features
+
+- 🤖 AI-powered Stadium Assistant using Google Gemini
+- ⚽ Match information and football updates
+- 🏟️ Stadium navigation interface
+- 🚆 Travel planning section
+- 🍔 Food & beverage browsing
+- 🚨 Emergency assistance section
+- 🎒 Lost & Found module
+- 🤝 Volunteer services
+- 📊 Stadium management dashboard
+- 📱 Modern Jetpack Compose UI
+- 🌙 Material Design 3 interface
+- 📍 Responsive Android experience
+
+---
+
+## Tech Stack
+
+- Kotlin
+- Jetpack Compose
+- Material Design 3
+- Google Gemini API
+- Android Studio
+- Gradle
+
+---
+
+# Requirements
+
+- Android Studio
+- Android SDK
+- JDK 17
+- Gemini API Key
+
+---
+
+# Running the Project
+
+## 1. Clone the repository
+
+```bash
+git clone https://github.com/ToxApks/Fifa-AI-Stadium-Campanion-App.git
+cd Fifa-AI-Stadium-Campanion-App
+```
+
+## 2. Open in Android Studio
+
+- Open Android Studio.
+- Select **Open**.
+- Choose the project folder.
+- Wait for Gradle Sync to complete.
+
+## 3. Configure Environment Variables
+
+Create a `.env` file in the project root.
+
+Example:
+
+```env
+GEMINI_API_KEY=YOUR_GEMINI_API_KEY
+```
+
+Refer to `.env.example` if available.
+
+## 4. Update Gradle Configuration
+
+If required, remove the following line from `app/build.gradle.kts`:
+
+```kotlin
+signingConfig = signingConfigs.getByName("debugConfig")
+```
+
+## 5. Run the App
+
+- Connect an Android device or start an emulator.
+- Click **Run ▶** in Android Studio.
+
+---
+
+---
+
+## Developer
+
+Developed by **Sanskar Patil**
